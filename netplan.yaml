@@ -1,0 +1,19 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp3s0:
+      foo: {bar: 3, goo: 6.5}
+      fooo:
+          bar: 3
+          goo: 6.5
+      dhcp4: no
+      dhcp6: false
+      addresses:
+        - 10.10.10.2/24
+        - 10.10.10.3/24
+      nameservers:
+        addresses: [8.8.8.8, 4.4.4.4]
+      routes:
+        - to: default
+          via: 10.10.10.1

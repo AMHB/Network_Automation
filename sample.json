@@ -1,0 +1,14 @@
+{
+    "hostname": "sw1",
+    "mgmtip": "10.1.1.2",
+    "extra":
+    {
+        "ver": 4,
+        "ntp": false
+    },
+    "interfaces": [
+        {"name": "Eth1", "ip": null, "duplex": "full"},
+        {"name": "Eth2", "ip": ["1.1.1.1", "1.1.1.2"], "duplex": "full"},
+        {"name": "Eth3", "ip": null, "duplex": "half"},
+    ]
+}

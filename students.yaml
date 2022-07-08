@@ -1,0 +1,15 @@
+- name: Ali
+  class_code: &cc CCCCCCCC
+  n: >
+      hello
+      hi
+      salam
+
+- name: Mina
+  class_code: *cc
+- name: Reza
+  class_code: *cc
+- name: Sara
+  class_code: *cc
+- name: Keyvan
+  class_code: *cc
